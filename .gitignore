@@ -1,0 +1,46 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python runtime
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Local IDE/agent state
+.claude/
+.omc/
+.vscode/
+.idea/
+
+# Data, logs, caches and generated research artifacts
+data/
+log/
+archive/
+cache/
+out/
+_shots/
+viewer/data/
+*.log
+*.log.txt
+*.err
+*_pid.txt
+_*.csv
+_*.json
+_*.txt
+*.parquet
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.rar
+*.html
+
+# Preserve source-side ignore policies when needed
+research/**/.env

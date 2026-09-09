@@ -1,0 +1,20 @@
+# Core research stack
+numpy>=1.24
+pandas>=2.0
+pyarrow>=12
+duckdb>=0.9
+requests>=2.31
+
+# Optional data adapters
+tushare>=1.2
+akshare>=1.12
+
+# Reports and notebooks
+openpyxl>=3.1
+XlsxWriter>=3.1
+SQLAlchemy>=2.0
+fastapi>=0.100
+
+# Platform-specific optional dependencies (install in their native environments)
+# jqdata / jqdatasdk : JoinQuant environment
+# xtquant            : MiniQMT environment
