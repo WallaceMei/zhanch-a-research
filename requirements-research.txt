@@ -7,7 +7,7 @@ requests>=2.31
 
 # Optional data adapters
 tushare>=1.2
-akshare>=1.12
+akshare>=1.18.94
 
 # Reports and notebooks
 openpyxl>=3.1
