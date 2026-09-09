@@ -6,7 +6,7 @@ duckdb>=0.9
 requests>=2.31
 
 # Optional data adapters
-tushare>=1.2
+tushare>=1.4.29
 akshare>=1.12
 
 # Reports and notebooks
